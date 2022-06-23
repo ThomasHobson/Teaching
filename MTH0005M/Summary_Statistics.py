@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 
 #Load Excel data
-data = pd.read_excel("WaterMonitoringData.xlsx", usecols="D").to_numpy()
+data = pd.read_excel("Red_Admiral_Data.xlsx", usecols="D").to_numpy()
 
 #Calculate summary statistics
 mean = np.mean(data)
